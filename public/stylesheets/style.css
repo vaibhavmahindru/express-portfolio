@@ -21,3 +21,68 @@
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
+
+/* .text-hover{
+  position: relative;
+}
+.text-hover:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.text-hover:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+} */
+
+.text-hover{
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 100%);
+  background-position: -0% 0;
+  background-size: 200% auto;line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out ;
+  
+}
+.text-hover:hover {
+  background-position: -99.99% 0;
+}
+
+.bg-img{
+  background-image: url('/images/background.jpg');
+  background-color: #cccccc;
+}
+
+.bg-black{
+  background-color: rgb(15, 15, 15);
+}
+
+.icons-hover{
+  transition: font-size 0.2s ease-in-out ;
+}
+
+.icons-hover:hover{
+  font-size: 3rem;
+}
+
+video{
+  position: absolute;
+  min-width: 100%;
+  max-height: 100%;
+  top: 5em;
+  object-fit:inherit
+}
+
+.z{
+  z-index: 1000;
+}
+
+.shd{
+  box-shadow:  10px 10px 0 0 rgba(90, 89, 89, 0.5);
+}
