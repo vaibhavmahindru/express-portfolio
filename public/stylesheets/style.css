@@ -79,6 +79,17 @@ video{
 }
 
 .shd{
-  box-shadow:  10px 10px 0 0 rgba(90, 89, 89, 0.5);
+  box-shadow:  10px 10px 0 0 rgba(90, 89, 89, 0.5)
 }
 
+.large{
+  font-size: 35px
+}
+
+.medium{
+  font-size: 25px;
+}
+
+.small{
+  font-size: 15px
+}
