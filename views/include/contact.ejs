@@ -1,1 +1,23 @@
-<section></section>
+<section id="contact" class="p-5 d-flex flex-column align-items-center justify-content-around">
+    <h1 class="display-4 text-uppercase text-decoration-underline text-center ">contact me</h1>
+    <form class="m-5 p-5 bg-dark col-8 rounded-3 d-flex flex-column align-items-center justify-content-around"
+        action="https://formsubmit.co/dbcc73a3e7f971171adc521b072be8b7" method="POST">
+        <div class="col-12 form-floating mb-3">
+
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name">
+            <label for="name" class="form-label">Name</label>
+        </div>
+        <div class="col-12 form-floating mb-3">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email">
+            <label for="email" class="form-label">Email</label>
+        </div>
+        <div class="col-12 form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a message here" id="text" name="message"
+                style="height: 150px"></textarea>
+            <label for="text">Message</label>
+        </div>
+        <input type="hidden" name="_subject" value="new mail">
+        <button type="submit" class="btn btn-outline-light fw-bold  btn-lg px-5 mt-3">Send</button>
+
+    </form>
+</section>
